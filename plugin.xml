@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="cordova-plugin-dialog-list"
+        version="0.1.0">
+    <name>Dialog List</name>
+    <description>Cordova Plugin that displays Dialog List</description>
+    <license>MIT</license>
+    <keywords>cordova,dialog list,dialog,list</keywords>
+
+
+    <js-module src="www/dialogList.js" name="DialogList">
+        <clobbers target="cordova.plugins.dialogList" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="DialogList">
+                <param name="android-package" value="com.dialogList.DialogList"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/DialogList.java" target-dir="src/com/dialogList" />
+    </platform>
+</plugin>

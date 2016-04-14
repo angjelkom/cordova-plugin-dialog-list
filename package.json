@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-dialog-list",
+  "version": "1.0.0",
+  "description": "Cordova Dialog List Plugin",
+  "cordova": {
+    "id": "cordova-plugin-dialog-list",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/echonox/cordova-plugin-dialog-list"
+  },
+  "keywords": [
+    "cordova",
+    "dialogList",
+    "list dialog",
+    "list",
+    "dialog",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=4.0.0-dev"
+    }
+  ],
+  "author": "Apache Software Foundation",
+  "license": "Apache 2.0"
+}
