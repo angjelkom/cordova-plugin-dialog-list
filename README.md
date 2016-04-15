@@ -65,3 +65,7 @@ NOTE: You must wait for the `deviceready` event.
 ### Supported Platforms
 
 - Android
+
+### Screenshot
+
+<img src="https://raw.githubusercontent.com/echonox/cordova-plugin-dialog-list/Screenshot.png"></img>
