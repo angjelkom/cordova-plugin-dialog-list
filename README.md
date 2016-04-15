@@ -68,4 +68,4 @@ NOTE: You must wait for the `deviceready` event.
 
 ### Screenshot
 
-<img src="https://raw.githubusercontent.com/echonox/cordova-plugin-dialog-list/Screenshot.png"></img>
+<img src="https://github.com/echonox/cordova-plugin-dialog-list/raw/master/Screenshot.png"></img>
