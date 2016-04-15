@@ -31,9 +31,9 @@ NOTE: You must wait for the `deviceready` event.
 
 ## Installation
 
-    cordova plugin add cordova-plugin-device
+    cordova plugin add cordova-plugin-dialog-list
 
-    phonegap plugin add cordova-plugin-device
+    phonegap plugin add cordova-plugin-dialog-list
 
 ## Usage
 
