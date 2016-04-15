@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
         id="cordova-plugin-dialog-list"
-        version="0.1.0">
+        version="1.0.0">
     <name>Dialog List</name>
     <description>Cordova Plugin that displays Dialog List</description>
     <license>MIT</license>

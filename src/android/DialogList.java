@@ -23,7 +23,6 @@ public class DialogList extends CordovaPlugin {
                 final String title = arg_object.getString("title");
 
                 JSONArray listItems = arg_object.getJSONArray("list");
-                System.out.println(listItems);
                 List<String> arrayList = new ArrayList<String>();
 
                 // we start with index 1 because index 0 is the title
@@ -61,6 +60,6 @@ public class DialogList extends CordovaPlugin {
             System.err.println("Exception: " + e.getMessage());
             callbackContext.error(e.getMessage());
             return false;
-        } 
-    }        
+        }
+    }
 }
